@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "combinatoire", "combinatoir
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "combinate", "combinate\combinate.csproj", "{B6DA4765-AC6C-480B-B4EA-E21A98645C1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDll", "TestDll\TestDll.csproj", "{BFF71AD9-AA30-401F-BC01-3B70466B1DF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDll", "TestDll\TestDll.csproj", "{BFF71AD9-AA30-401F-BC01-3B70466B1DF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calcloto", "\\Freebox_Server\SSD_INTERNE_FREE\Projets\VsProjects\calcloto\calcloto.csproj", "{ED92FE23-0BBE-4E26-AF5A-5D788FE50143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testCalcLoto", "testCalcLoto\testCalcLoto.csproj", "{EB8DF28A-6439-4A59-8136-73D7E02FFD9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calclotoDll", "calclotoDll\calclotoDll.csproj", "{8ED37334-3FA9-4332-A253-7B14FC5472DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{BFF71AD9-AA30-401F-BC01-3B70466B1DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFF71AD9-AA30-401F-BC01-3B70466B1DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFF71AD9-AA30-401F-BC01-3B70466B1DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED92FE23-0BBE-4E26-AF5A-5D788FE50143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED92FE23-0BBE-4E26-AF5A-5D788FE50143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED92FE23-0BBE-4E26-AF5A-5D788FE50143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED92FE23-0BBE-4E26-AF5A-5D788FE50143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8DF28A-6439-4A59-8136-73D7E02FFD9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8DF28A-6439-4A59-8136-73D7E02FFD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8DF28A-6439-4A59-8136-73D7E02FFD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8DF28A-6439-4A59-8136-73D7E02FFD9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED37334-3FA9-4332-A253-7B14FC5472DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED37334-3FA9-4332-A253-7B14FC5472DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED37334-3FA9-4332-A253-7B14FC5472DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED37334-3FA9-4332-A253-7B14FC5472DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

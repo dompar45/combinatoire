@@ -8,6 +8,7 @@ using System;
 using System.Runtime.InteropServices;
 using System.IO;
 using loto;
+using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace combinate
 {
@@ -23,7 +24,10 @@ namespace combinate
 
             Dictionary<string, tirLoto> Tirages = new Dictionary<string, tirLoto>();
 
-            string filename = @"C:\Users\Dell 7490\Documents\perso\Loto\loto_201911.csv";
+            /*string filename = @"C:\Users\Dell 7490\Documents\perso\Loto\loto_201911.csv";*/
+
+            string filename = @"D:\Users\dominique\loto\loto_201911.csv";
+
             int ligne = -1;
             int datCol = 3, num1 = 5, num2 = 6, num3 = 7, num4 = 8, num5 = 9, /*num6 = 10,*/ numComp = 10;
             string keyDico;
@@ -50,12 +54,11 @@ namespace combinate
                     tir.num3 = int.Parse(values[num3]);
                     tir.num4 = int.Parse(values[num4]);
                     tir.num5 = int.Parse(values[num5]);
-                    //tir.nums[5] = int.Parse(values[num6]);
-                    tir.complementaire = int.Parse(values[numComp]);
+                    tir.compl = int.Parse(values[numComp]);
                     tir.jour_tirage = values[2];
                     tir.num_tirage = int.Parse(values[1]);
 
-                    keyDico = values[datCol] + "-" + values[1] + "-" + values[2];
+                    keyDico = values[datCol] + " - " + values[1] + "-" + values[2];
                     Tirages.Add(keyDico, tir);
 
 
