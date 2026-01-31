@@ -8,8 +8,8 @@ namespace loto
     public class Combinaison
     {
         private int _nombreValeurs;
-        private int _nombreExtrait;
-        public long NumCombiMax { get; }
+        private readonly int _nombreExtrait;
+        //public long NumCombiMax { get; }
 
         public Combinaison(int nbVals, int nbExtr)
         {
@@ -60,7 +60,7 @@ namespace loto
             return nCbMax - combinum;
         }
 
-        public long numCombiMax(long nbNumeros) => Factodep(_nombreValeurs, (_nombreValeurs+1)- nbNumeros) /Factodep(nbNumeros, 1);
+        public long NumCombiMax(long nbNumeros) => Factodep(_nombreValeurs, (_nombreValeurs + 1) - nbNumeros) / Factodep(nbNumeros, 1);
 
         public IEnumerable<int[]> Duos(List<int> tab)
         {

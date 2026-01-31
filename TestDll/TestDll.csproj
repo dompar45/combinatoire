@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\combinate\combinate.csproj" />
-    <ProjectReference Include="\\Freebox_Server\SSD_INTERNE_FREE\Projets\VsProjects\calcloto\calcloto.csproj" />
+    <ProjectReference Include="..\lotocomb\lotocomb.csproj" />
   </ItemGroup>
 
 </Project>

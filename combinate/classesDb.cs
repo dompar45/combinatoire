@@ -1,4 +1,5 @@
 ﻿using SQLite;
+using SQLite.Net.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace combinate
 {
     public class tirLoto
     {
-        [PrimaryKey]
+        [SQLite.Net.Attributes.PrimaryKey]
         public int num_tirage { get; set; }
         public string jour_tirage { get; set; }
         public long num_combi { get; set; }
@@ -27,7 +28,7 @@ namespace combinate
 
     public class duos
     {
-        [PrimaryKey]
+        [SQLite.Net.Attributes.PrimaryKey]
         public int num_tirage { get; set; }
         public string jour_tirage { get; set; }
         public long num_combi_tirage { get; set; }
@@ -42,7 +43,7 @@ namespace combinate
 
     public class tris
     {
-        [PrimaryKey]
+        [SQLite.Net.Attributes.PrimaryKey]
         public int num_tirage { get; set; }
         public string jour_tirage { get; set; }
         public long num_combi_tirage { get; set; }
@@ -57,7 +58,7 @@ namespace combinate
     }
     public class quarts
     {
-        [PrimaryKey]
+        [SQLite.Net.Attributes.PrimaryKey]
         public int num_tirage { get; set; }
         public string jour_tirage { get; set; }
         public long num_combi_tirage { get; set; }
